@@ -1,0 +1,17 @@
+{
+  "name": "lambda-example-typescript",
+  "version": "1.0.0",
+  "description": "An example typescript lambda function",
+  "main": "index.js",
+  "scripts": {
+    "build": "./build.sh",
+    "clean": "rm -f package.zip",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rusty Conover",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "aws-sdk": "^2.606.0"
+  }
+}
